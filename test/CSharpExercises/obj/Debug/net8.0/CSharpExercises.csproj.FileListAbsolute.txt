@@ -1,0 +1,14 @@
+F:\moximoxi\c#\test\CSharpExercises\bin\Debug\net8.0\CSharpExercises.exe
+F:\moximoxi\c#\test\CSharpExercises\bin\Debug\net8.0\CSharpExercises.deps.json
+F:\moximoxi\c#\test\CSharpExercises\bin\Debug\net8.0\CSharpExercises.runtimeconfig.json
+F:\moximoxi\c#\test\CSharpExercises\bin\Debug\net8.0\CSharpExercises.dll
+F:\moximoxi\c#\test\CSharpExercises\bin\Debug\net8.0\CSharpExercises.pdb
+F:\moximoxi\c#\test\CSharpExercises\obj\Debug\net8.0\CSharpExercises.GeneratedMSBuildEditorConfig.editorconfig
+F:\moximoxi\c#\test\CSharpExercises\obj\Debug\net8.0\CSharpExercises.AssemblyInfoInputs.cache
+F:\moximoxi\c#\test\CSharpExercises\obj\Debug\net8.0\CSharpExercises.AssemblyInfo.cs
+F:\moximoxi\c#\test\CSharpExercises\obj\Debug\net8.0\CSharpExercises.csproj.CoreCompileInputs.cache
+F:\moximoxi\c#\test\CSharpExercises\obj\Debug\net8.0\CSharpExercises.dll
+F:\moximoxi\c#\test\CSharpExercises\obj\Debug\net8.0\refint\CSharpExercises.dll
+F:\moximoxi\c#\test\CSharpExercises\obj\Debug\net8.0\CSharpExercises.pdb
+F:\moximoxi\c#\test\CSharpExercises\obj\Debug\net8.0\CSharpExercises.genruntimeconfig.cache
+F:\moximoxi\c#\test\CSharpExercises\obj\Debug\net8.0\ref\CSharpExercises.dll
