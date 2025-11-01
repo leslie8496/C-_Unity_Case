@@ -1,5 +1,11 @@
 class Case2
 {
+    /* 
+    2. **流程控制**
+    - if/else, switch 的写法。
+    - for, while, do-while, foreach。
+    - 试题：写九九乘法表（用 for 和 foreach 各实现一次）。
+     */
     private const int maxCount = 9;
     private const int minCount = 1;
     private List<int> nums = new List<int>();//List<T>是可以动态扩展元素的，但是数组T[]是固定长度的，定义之后就不能被扩展了

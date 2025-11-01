@@ -1,5 +1,8 @@
 class Case5
 {
+    /* 2. **继承与多态**
+    - virtual、override、new。
+    - 试题：定义一个 `Animal` 基类，Dog 和 Cat 继承并重写 `Speak()` 方法。 */
     public void Run()
     {
         Dog dog = new Dog("队长", "汪汪");

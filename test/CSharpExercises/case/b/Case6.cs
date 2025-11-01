@@ -1,5 +1,9 @@
 class Case6
 {
+    /* 
+    - interface、abstract class。
+- 试题：写一个 `IShape` 接口，定义 GetArea()，然后让 Circle, Rectangle 实现它。
+     */
     public void Run()
     {
         List<IShape> shapes = new List<IShape>();

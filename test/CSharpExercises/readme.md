@@ -1,0 +1,42 @@
+## vscode相关快捷键：
+- 注释相关快捷键
+    - 单行注释：Cmd + / (macOS)
+    - 多行注释：Shift + Option + A (macOS)
+- 编辑相关快捷键
+    -  复制行：Shift + Option + ↑/↓ (向上/向下复制当前行)
+    -  移动行：Option + ↑/↓ (向上/向下移动当前行)
+    -  删除行：Shift + Cmd + K
+- 插入行：
+    -   在下方插入行：Cmd + Enter
+    -   在上方插入行：Shift + Cmd + Enter
+    -   选择所有相同单词：Cmd + D (连续按可以选择更多相同单词)
+    -  多光标编辑：Option + 点击 或 Option + Shift + 鼠标拖动
+- 导航相关快捷键
+    -  转到文件：Cmd + P
+    -    转到行：Ctrl + G
+    -    转到符号：Cmd + Shift + O
+    -    转到定义：F12 或 Cmd + 点击
+    -    返回/前进：Ctrl + - / Ctrl + Shift + -
+- 界面相关快捷键
+    -    打开/关闭侧边栏：Cmd + B
+    -    打开/关闭终端：`Ctrl + `` (反引号)
+    -    切换全屏：Cmd + Ctrl + F
+    -    切换编辑器分组：Cmd + 1/2/3...
+- 搜索相关快捷键
+     -   在文件中查找：Cmd + F
+     -   在所有文件中查找：Cmd + Shift + F
+     -   替换：Cmd + Option + F
+     -   在所有文件中替换：Cmd + Shift + H
+- 代码折叠相关快捷键
+     -   折叠代码块：Option + Cmd + [
+     -   展开代码块：Option + Cmd + ]
+     -   折叠所有：Cmd + K, Cmd + 0
+     -   展开所有：Cmd + K, Cmd + J
+- 其他实用快捷键
+     -   命令面板：Cmd + Shift + P (可以执行几乎所有 VSCode 命令)
+     -   快速修复：Cmd + . (显示代码操作和快速修复)
+     -   重命名符号：F2
+     -   格式化文档：Shift + Option + F
+     -   智能提示：Ctrl + Space
+***
+

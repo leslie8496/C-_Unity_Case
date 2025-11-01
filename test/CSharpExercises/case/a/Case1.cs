@@ -1,6 +1,11 @@
 class Case1
 {
-    
+    /*  
+        1. **变量与常量**
+    - 定义不同类型的变量（int、double、string、bool、char）。
+    - 定义 const 和 readonly 的区别。
+    - 试题：写一个程序，声明一个圆的半径常量，计算面积。
+    */
     public void Run(int num)
     {
         double count = calcCircle(num);

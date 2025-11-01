@@ -1,5 +1,9 @@
 class Case4
 {
+    /* 
+     **类与对象**
+    - 定义类、构造函数、属性（get/set）。
+    - 试题：写一个 `Person` 类，包含 Name, Age，写一个方法 `Introduce()` 打印一句话。 */
     public void Run()
     {
         Person person = new Person("leslie", 18);
