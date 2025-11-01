@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CSharpExercises
-build_property.ProjectDir = F:\moximoxi\c#\test\CSharpExercises\
+build_property.ProjectDir = /Users/leslie/Desktop/GamePro/c#/test/C-_Unity_Case/test/CSharpExercises/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
