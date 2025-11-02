@@ -41,6 +41,9 @@ class Program
             case "case7":
                 new Case7().Run();
                 break;
+            case "case8":
+                new Case8().Run();
+                break;
             default:
                 Console.WriteLine($"未找到 {args[0]} 对应的test");
                 break;
