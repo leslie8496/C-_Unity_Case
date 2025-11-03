@@ -1,7 +1,28 @@
 ﻿using System;
+using System.Collections.Generic;
 
 class Program
 {
+    public static Dictionary<string, Action<int>> registData = new Dictionary<string, Action<int>>
+        {
+            {"case1",(d)=>{
+                if(d==0)return;
+                new Case1().Run(d);
+                }},
+            {"case3",(d)=>{
+                if(d==0)return;
+                new Case3().Run(d);
+                }},
+            {"case2",d=> new Case2().Run()},
+            {"case4",d=> new Case4().Run()},
+            {"case5",d=> new Case5().Run()},
+            {"case6",d=> new Case6().Run()},
+            {"case7",d=> new Case7().Run()},
+            {"case8",d=> new Case8().Run()},
+            {"case9",d=> new Case9().Run()},
+            {"case10",d=> new Case10().Run()},
+            {"case11",d=> new Case11().Run()},
+        };
     static void Main(string[] args)
     {
         if (args.Length == 0)
@@ -9,55 +30,19 @@ class Program
             Console.WriteLine("请输入要运行的 case，例如：dotnet run -- case1");
             return;
         }
+
         int d = getArgsParam(args);
-        switch (args[0].ToLower())
+        string typeName = args[0].ToLower();
+        if(registData.TryGetValue(typeName,out Action<int> runFunc))
         {
-            case "case1":
-                if (d == 0)
-                {
-                    return;
-                }
-                new Case1().Run(d);
-                break;
-            case "case2":
-                new Case2().Run();
-                break;
-            case "case3":
-                if (d == 0)
-                {
-                    return;
-                }
-                new Case3().Run(d);
-                break;
-            case "case4":
-                new Case4().Run();
-                break;
-            case "case5":
-                new Case5().Run();
-                break;
-            case "case6":
-                new Case6().Run();
-                break;
-            case "case7":
-                new Case7().Run();
-                break;
-            case "case8":
-                new Case8().Run();
-                break;
-            case "case9":
-                new Case9().Run();
-                break;
-            case "case10":
-                new Case10().Run();
-                break;
-            default:
-                Console.WriteLine($"未找到 {args[0]} 对应的test");
-                break;
+            runFunc(d);
         }
+        
     }
+
     private static int getArgsParam(string[] args)
     {
-        if (args.Length == 1)
+        if (args.Length < 2) // 改为 < 2 更健壮
         {
             return 0;
         }
