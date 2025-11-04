@@ -17,6 +17,8 @@ class Work2
             System.Console.WriteLine(s);
             return s;
         });
+    
+        
     }
 }
 class Stu

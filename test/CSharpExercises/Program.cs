@@ -25,6 +25,7 @@ class Program
             {"case12",d=> new Case12().Run()},
             {"work1",d=> new Work1().Run()},
             {"work2",d=> new Work2().Run()},
+            {"l1",d=> new TwoSum().Run()},
         };
     static void Main(string[] args)
     {
