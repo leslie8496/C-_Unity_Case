@@ -24,6 +24,7 @@ class Program
             {"case11",d=> new Case11().Run()},
             {"case12",d=> new Case12().Run()},
             {"work1",d=> new Work1().Run()},
+            {"work2",d=> new Work2().Run()},
         };
     static void Main(string[] args)
     {
