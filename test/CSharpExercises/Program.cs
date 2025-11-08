@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using CSharpExercises.lecode;
 
 class Program
 {
@@ -26,6 +27,7 @@ class Program
             {"work1",d=> new Work1().Run()},
             {"work2",d=> new Work2().Run()},
             {"l1",d=> new TwoSum().Run()},
+            {"l2",d=> new QuanPaiLie().Run()},
         };
     static void Main(string[] args)
     {
