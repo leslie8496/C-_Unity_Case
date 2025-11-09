@@ -10,6 +10,7 @@ public class MergeQuJian
      *
      * 以数组 intervals 表示若干个区间的集合，其中单个区间为 intervals[i] = [starti, endi] 。
      * 请你合并所有重叠的区间，并返回 一个不重叠的区间数组，该数组需恰好覆盖输入中的所有区间 。
+     * //贪心策略是啥？是每一步都想做到对于当前来说是最好的
      *
      * 示例 1：
 
@@ -27,9 +28,25 @@ public class MergeQuJian
        输出：[[1,7]]
        解释：区间 [1,4] 和 [4,7] 可被视为重叠区间。
      */
-    // public int[][] Merge(int[][] intervals)
-    // {
-    //     intervals.OrderBy(item => item[0]);
-    //     
-    // }
+    public int[][] Merge(int[][] intervals)
+    {
+        if (intervals == null || intervals.Length <= 1) return intervals;
+        
+        Array.Sort(intervals,(a,b)=>a[0].CompareTo(b[0]));
+        List<int[]> newData = new List<int[]>();
+        newData.Add(intervals[0]);
+        for (int i = 1; i < intervals.Length; i++)
+        {
+            int lastDataNum = newData.Last()[1];
+            if (lastDataNum >= intervals[i][0])
+            {
+                newData.Last()[1] = Math.Max(lastDataNum, intervals[i][1]);
+            }
+            else
+            {
+                newData.Add(intervals[i]);
+            }
+        }
+        return newData.ToArray();
+    }
 }
