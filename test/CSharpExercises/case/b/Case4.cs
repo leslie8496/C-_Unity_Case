@@ -3,14 +3,14 @@ class Case4
     /* 
      **类与对象**
     - 定义类、构造函数、属性（get/set）。
-    - 试题：写一个 `Person` 类，包含 Name, Age，写一个方法 `Introduce()` 打印一句话。 */
+    - 试题：写一个 `Person1` 类，包含 Name, Age，写一个方法 `Introduce()` 打印一句话。 */
     public void Run()
     {
-        Person person = new Person("leslie", 18);
+        Person1 person = new Person1("leslie", 18);
         person.Introduce();
     }
 };
-public class Person
+public class Person1
 {
     private string _name;
     public string Name
@@ -26,7 +26,7 @@ public class Person
         }
     }
     int Age;
-    public Person(string name, int age)
+    public Person1(string name, int age)
     {
         Name = name;
         Age = age;

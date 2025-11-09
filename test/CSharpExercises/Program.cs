@@ -26,6 +26,7 @@ class Program
             {"case12",d=> new Case12().Run()},
             {"work1",d=> new Work1().Run()},
             {"work2",d=> new Work2().Run()},
+            {"work3",d=> new Work3().Run()},
             {"l1",d=> new TwoSum().Run()},
             {"l2",d=> new QuanPaiLie().Run()},
         };
