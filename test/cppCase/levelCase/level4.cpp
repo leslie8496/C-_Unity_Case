@@ -46,4 +46,5 @@ int main()
     cout << "HP 的内存地址（门牌号）是：" << ptr << endl;
     *ptr = 50;
     cout << "修改过的值是：" << hp << endl;
+    return 0;
 }

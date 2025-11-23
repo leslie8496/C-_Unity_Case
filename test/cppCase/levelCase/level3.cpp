@@ -53,4 +53,5 @@ int main()
     所以箭头必须指向右边：cin >> name （数据 流向 变量）。
     */
     cout << "我这有一把伤害为" << myGun.damage << "的" << myGun.name<<endl;
+    return 0;
 }
