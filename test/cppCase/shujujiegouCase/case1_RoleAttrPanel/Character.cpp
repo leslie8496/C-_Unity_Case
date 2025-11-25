@@ -73,4 +73,5 @@ int main()
 
     player.buffAttr.push_back({"狂暴",30,true});
     displayCharacter(player);
+    return 0;
 }
